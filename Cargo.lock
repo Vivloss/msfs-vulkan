@@ -606,7 +606,7 @@ dependencies = [
 
 [[package]]
 name = "msfs-vulkan-cli"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "anyhow",
  "clap",
@@ -617,7 +617,7 @@ dependencies = [
 
 [[package]]
 name = "msfs-vulkan-core"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "anyhow",
  "directories",
@@ -635,7 +635,7 @@ dependencies = [
 
 [[package]]
 name = "msfs-vulkan-gui"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "anyhow",
  "msfs-vulkan-core",
@@ -646,7 +646,7 @@ dependencies = [
 
 [[package]]
 name = "msfs-vulkan-vulkan"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "anyhow",
  "ash",
