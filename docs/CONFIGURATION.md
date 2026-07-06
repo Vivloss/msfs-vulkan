@@ -1,6 +1,6 @@
 # Configuring `msfs-vulkan.toml`
 
-`msfs-vulkan` uses a configuration file called `msfs-vulkan.toml`. This file is what tells the tool how to set up the translation layer and what environment variables it has to pass to MSFS
+`msfs-vulkan` uses a configuration file called `msfs-vulkan.toml`. stored in Local AppData under the `msfs-vulkan/data` folder. This file is what tells the tool how to set up the translation layer
 
 ## Defaults
 When you click **Apply Configuration**  in the GUI or run the command `init` in the CLI it generates a default manifest telling the tool where to put the translation Dlls next to MSFS's exe file.
