@@ -16,10 +16,13 @@ If you just wanna try it out via the GUI like most people
 
 1. Run `msfs-vulkan-gui.exe` from the latest release
 2. Select a **Configuration Preset** for your rig, e.g if you have a mid range from 6 years ago, select Performance, High end from 5 years ago Balanced and so on.
-3. Click **Apply Configuration**
-4. Click **Install Translation Layers** as this project doesn't come with them. Wait while your PC installs them from their Github repos. `msfs-vulkan` will not work without these installed. If installed the status in the GUI will change to Installed and then you may move on.
-5. Click **Run Flight Simulator** and wait for the game to launch. if it throws a error, Make a issue in the Github.
-6. **Important:** When you're finished testing, Click **Restore Original Files** to remove the translation layers and restore your sim to DirectX 12/11.
+3. Select a **VKD3D-Proton** and **DXVK** source, You can select the MSFS Tailored version which is in development (which fixes the loading video on MSFS2024) or stick with the original repos. We recommend trying both and seeing what works best on your system.
+4. Click **Apply Configuration**
+5. Click **Install Translation Layers** as this project doesn't come with them. Wait while your PC installs them from their Github repos. `msfs-vulkan` will not work without these installed. If installed the status in the GUI will change to Installed and then you may move on.
+6. Click **Run Flight Simulator** and wait for the game to launch. if it throws a error, Make a issue in the Github.
+7. **Important:** When you're finished testing, Click **Restore Original Files** to remove the translation layers and restore your sim to DirectX 12/11.
+> [!NOTE]
+> If you are asked to provide logs after creating a issue, Click **Start with Debugging Options** in the GUI or run with the flag `--debug` in the CLI release and recreate your issue. the logs will be stored in a path displayed before MSFS boots. **This option only works if you have the MSFS Tailored version of VKD3D and DXVK.**
 
 ## CLI (incase you're having issues with the GUI or would like the Terminal instead)
 
